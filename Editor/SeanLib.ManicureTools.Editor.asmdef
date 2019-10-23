@@ -1,0 +1,17 @@
+{
+    "name": "SeanLib.ManicureTools.Editor",
+    "references": [
+        "GUID:52a983d7d136e1648a47a31f9a24cf4f",
+        "GUID:76aa88fa43b969c428cf4fcea4da8777"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}
