@@ -2,7 +2,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-[CustomSeanLibEditor("Other/UVPreview")]
+[CustomSeanLibEditor("ManicureTools/UVPreview")]
 public class UVPreviewDoc : EditorMarkDownWindow
 {
+    public override string RelativePath => "../../../Doc/UVPreview";
 }

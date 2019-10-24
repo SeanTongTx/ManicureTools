@@ -24,3 +24,7 @@
 ## CustomMipmap
 导入自定义Mipmap
 >CustomMipmap/CustomMipmap
+
+## UVPreview
+在inspectorPreview中浏览模型UV。
+>UVPreview/Index
