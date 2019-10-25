@@ -1,6 +1,7 @@
 ﻿# ManicureTools <color="lime">(LTS)</color>
 ## 玲珑工具集
 ## 简介 
+/{<color="orange">※详细说明</color>
 ### 玲珑插件
 一个仅由很少的资源(几个脚本,几张贴图等)组成的完整功能的插件。我称之为玲珑插件(小工具)。
 
@@ -16,7 +17,7 @@
 通过SeanLibManager导入时 单独勾选需要保留的玲珑插件。
 按照原有流程导入后，删除其他不需要的插件。同时可选择 移动到项目文件中。
 这个过程比较复杂切需要兼容很多情况(暂定)
-
+/}
 ## 玲珑汇
 
 ***
@@ -28,3 +29,13 @@
 ## UVPreview
 在inspectorPreview中浏览模型UV。
 >UVPreview/Index
+
+##TortoiseSVN
+Unity编辑器中SVN操作
+
+>TortoiseSVN/README
+
+## ReorderableList 
+
+Unity内置可排序列表开源版
+(https://github.com/cfoulston/Unity-Reorderable-List.git)
