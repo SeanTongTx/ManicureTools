@@ -1,7 +1,7 @@
 ﻿# ManicureTools <color="lime">(LTS)</color>
 ## 玲珑工具集
 ## 简介 
-/{<color="orange">※详细说明</color>
+/{<color="orange">▶详细说明</color>
 ### 玲珑插件
 一个仅由很少的资源(几个脚本,几张贴图等)组成的完整功能的插件。我称之为玲珑插件(小工具)。
 

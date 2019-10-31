@@ -87,6 +87,7 @@ public class UVData
         result.colors = colors;
         for (int j = 0; j < targetMesh.subMeshCount; j++)
         {
+            if(targetMesh.subMeshCount>j)
             result.SetIndices(targetMesh.GetIndices(j), MeshTopology.Triangles, j);
         }
         return result;

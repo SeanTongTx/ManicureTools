@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
 using UnityEditor;
@@ -30,15 +31,27 @@ public class UVPreviewInspector : InternalInspector<GameObject>
     private new void OnEnable()
     {
         base.OnEnable();
+        if(Application.isPlaying)
+        {
+            return;
+        }
+        try
+        {
+            m_UVPreview = new UVPreview();
+            if (target)
+            {
+                m_UVPreview.Add((GameObject)target, true);
+            }
+            m_Textures = CollectTextures((GameObject)target);
+            m_TexContent = new GUIContent("贴图");
 
-        m_UVPreview = new UVPreview();
-        if (target)
-            m_UVPreview.Add((GameObject)target, true);
-        m_Textures = CollectTextures((GameObject)target);
-        m_TexContent = new GUIContent("贴图");
+            Renderer[] renderers = ((GameObject)target).GetComponentsInChildren<Renderer>();
+            m_RendersCount = renderers.Length;
+        }
+        catch(Exception e)
+        {
 
-        Renderer[] renderers = ((GameObject)target).GetComponentsInChildren<Renderer>();
-        m_RendersCount = renderers.Length;
+        }
     }
 
     private new  void OnDisable()
@@ -90,7 +103,7 @@ public class UVPreviewInspector : InternalInspector<GameObject>
         }
     }
 
-    public override Texture2D RenderStaticPreview(string assetPath, Object[] subAssets, int width, int height)
+    public override Texture2D RenderStaticPreview(string assetPath, UnityEngine.Object[] subAssets, int width, int height)
     {
         return this.m_ObjectInspector.RenderStaticPreview(assetPath, subAssets, width, height);
     }
