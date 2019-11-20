@@ -1,0 +1,5 @@
+﻿PatchVersion,0
+MultiLanguage,0
+InReview,0
+TVVersion,0
+GameLock,0

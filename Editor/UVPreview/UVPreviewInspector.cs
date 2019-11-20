@@ -132,15 +132,20 @@ public class UVPreviewInspector : InternalInspector<GameObject>
         }
         if (mats.Count > 0)
         {
-            MaterialProperty[] matProperties = MaterialEditor.GetMaterialProperties(mats.ToArray());
-            for (int i = 0; i < matProperties.Length; i++)
+            foreach (var mat in mats)
             {
-                if (matProperties[i].type == MaterialProperty.PropType.Texture &&
-                    matProperties[i].textureDimension == UnityEngine.Rendering.TextureDimension.Tex2D && matProperties[i].textureValue != null)
+                var matProperties = MaterialEditor.GetMaterialProperties(new Material[]{ mat });
+                for (int i = 0; i < matProperties.Length; i++)
                 {
-                    result.Add((Texture2D)matProperties[i].textureValue);
+                    if (matProperties[i].type == MaterialProperty.PropType.Texture &&
+                        matProperties[i].textureDimension == UnityEngine.Rendering.TextureDimension.Tex2D && matProperties[i].textureValue != null)
+                    {
+                        result.Add((Texture2D)matProperties[i].textureValue);
+                    }
                 }
             }
+            //MaterialProperty[] matProperties = MaterialEditor.GetMaterialProperties(mats.ToArray());
+           
         }
         return result;
     }

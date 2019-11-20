@@ -1,0 +1,30 @@
+﻿
+/*
+.dockHeader {
+    background-color: rgb(45,45,45);
+}
+.dragtab
+{
+    background-color: rgb(125,125,125);
+}
+.toolbarbutton
+{
+    background-color: rgb(125,125,125);
+}
+.ScrollViewAlt
+{
+    background-color: rgb(125,125,125);
+}
+.TabWindowBackground
+{
+    background-color: rgb(45,45,45);
+}
+.ToolbarPopup
+{
+    background-color: rgb(45,45,45);
+}
+.ToolbarPopup:hover
+{
+    background-color: rgb(125,125,125);
+}
+*/

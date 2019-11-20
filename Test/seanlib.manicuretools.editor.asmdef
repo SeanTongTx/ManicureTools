@@ -1,0 +1,19 @@
+{
+    "name": "SeanLib.ManicureTools.Test",
+    "references": [
+        "GUID:52a983d7d136e1648a47a31f9a24cf4f",
+        "GUID:76aa88fa43b969c428cf4fcea4da8777",
+        "GUID:0acc523941302664db1f4e527237feb3",
+        "GUID:27619889b8ba8c24980f49ee34dbb44a"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

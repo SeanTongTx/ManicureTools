@@ -39,3 +39,26 @@ Unity编辑器中SVN操作
 
 Unity内置可排序列表开源版
 (https://github.com/cfoulston/Unity-Reorderable-List.git)
+
+## UnityBuiltinResouces
+
+移除Unity内置资源。最终打包时减少包体重复资源。
+
+>UnityBuiltinResouces/Index
+
+## LocalCache
+
+本地缓存。支持各种模式的缓存处理。
+
+## Downloader
+
+文件下载器。极简化的文件下载工具。
+支持同步/异步 断点续传。
+
+## AudioControler
+
+简单音频控制
+
+## CustomCoroutine
+
+自定义协程 描述
