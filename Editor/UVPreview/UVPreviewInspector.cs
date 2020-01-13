@@ -48,7 +48,7 @@ public class UVPreviewInspector : InternalInspector<GameObject>
             Renderer[] renderers = ((GameObject)target).GetComponentsInChildren<Renderer>();
             m_RendersCount = renderers.Length;
         }
-        catch(Exception e)
+        catch(Exception )
         {
 
         }

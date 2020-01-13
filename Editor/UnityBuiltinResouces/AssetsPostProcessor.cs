@@ -324,7 +324,8 @@ public class AssetsPostProcessor : AssetPostprocessor
     {
         if (importer != null)
         {
-            importer.importMaterials = false;
+            importer.materialImportMode = ModelImporterMaterialImportMode.None;
+            //importer.importMaterials = false;
         }
     }
 

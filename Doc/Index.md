@@ -1,4 +1,4 @@
-﻿# ManicureTools <color="lime">(LTS)</color>
+# ManicureTools <color="lime">(LTS)</color>
 ## 玲珑工具集
 ## 简介 
 /{<color="orange">▶详细说明</color>
@@ -62,3 +62,7 @@ Unity内置可排序列表开源版
 ## CustomCoroutine
 
 自定义协程 描述
+
+## ScriptInspector3
+
+unityEditor中 编辑脚本

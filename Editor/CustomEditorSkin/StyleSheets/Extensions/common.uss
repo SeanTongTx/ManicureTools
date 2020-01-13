@@ -1,11 +1,31 @@
-﻿
-/*
-.dockHeader {
+﻿/*
+.IN-Title
+{
+    background-color: rgb(45,45,45);
+}
+.dockHeader 
+{
+    background-color: rgb(45,45,45);
+}
+.dockarea {
     background-color: rgb(45,45,45);
 }
 .dragtab
 {
     background-color: rgb(125,125,125);
+}
+.dragtab-label
+{
+    background-color: rgb(125,125,125);
+}
+.Toolbar
+{
+    background-color: rgb(125,125,125);
+}
+.BoldLabel
+{
+	color:rgb(255,255,255)
+	font-color:rgb(255,255,255)
 }
 .toolbarbutton
 {
@@ -19,11 +39,19 @@
 {
     background-color: rgb(45,45,45);
 }
+.WhiteBackground
+{
+    background-color: rgb(125,125,125);
+}
 .ToolbarPopup
 {
     background-color: rgb(45,45,45);
 }
 .ToolbarPopup:hover
+{
+    background-color: rgb(125,125,125);
+}
+.TV-Line
 {
     background-color: rgb(125,125,125);
 }
